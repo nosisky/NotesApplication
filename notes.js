@@ -5,7 +5,7 @@ class NotesApplication {
 	}
 	create(notes_content) {
 		this.notes_content = notes_content;
-		this.notes_content.push(notes);
+		this.notes.push(notes_content);
 	}
 	listNotes(note_id, notes_content) {
 		return notes;
