@@ -14,6 +14,9 @@ class NotesApplication {
 		note_id = [];
 	}
 	search(search_text) {
+		if (search_text.find(notes) === true); { 
+			return indexOf(notes);
+		}
 	}
     delete(note_id) {
     var index = array.indexOf(notes);
